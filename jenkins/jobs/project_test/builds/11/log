@@ -1,0 +1,21 @@
+Started by timer
+Running as SYSTEM
+Building remotely on [8mha:////4LCFRYN2EqOxpOVAmtkxAv6bF+N+v7YYwKouW4znJzFZAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eKcxLJUIwCCp2lrxQAAAA==[0mslave2 in workspace /home/ec2-user/jenkins/workspace/project_test
+using credential ea8fffaa-9362-4db1-ac1b-62ee5989e703
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/pradeepmpk/test3.git # timeout=10
+Fetching upstream changes from https://github.com/pradeepmpk/test3.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress https://github.com/pradeepmpk/test3.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 217a538eb9af237083f86e89656f0a8141a57eb0 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 217a538eb9af237083f86e89656f0a8141a57eb0
+Commit message: "adding files"
+ > git rev-list --no-walk 217a538eb9af237083f86e89656f0a8141a57eb0 # timeout=10
+[project_test] $ /bin/bash /tmp/jenkins7740956557963134504.sh
+Null message body; hope that's ok
+Finished: SUCCESS

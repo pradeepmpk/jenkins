@@ -1,0 +1,6 @@
+Started by timer
+Running as SYSTEM
+Building remotely on [8mha:////4LCFRYN2EqOxpOVAmtkxAv6bF+N+v7YYwKouW4znJzFZAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eKcxLJUIwCCp2lrxQAAAA==[0mslave2 in workspace /home/ec2-user/jenkins/workspace/project_test
+[project_test] $ /bin/bash /tmp/jenkins999343320546669779.sh
+Null message body; hope that's ok
+Finished: SUCCESS

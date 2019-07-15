@@ -1,0 +1,58 @@
+Started by GitHub push by pradeepmpk
+Running as SYSTEM
+Building remotely on [8mha:////4LCFRYN2EqOxpOVAmtkxAv6bF+N+v7YYwKouW4znJzFZAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eKcxLJUIwCCp2lrxQAAAA==[0mslave2 in workspace /home/ec2-user/jenkins/workspace/project_build
+using credential ea8fffaa-9362-4db1-ac1b-62ee5989e703
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/pradeepmpk/test3.git # timeout=10
+Fetching upstream changes from https://github.com/pradeepmpk/test3.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress https://github.com/pradeepmpk/test3.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 651b0c83cc50c8a3ec15ae48ff8997c96a5bc612 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 651b0c83cc50c8a3ec15ae48ff8997c96a5bc612
+Commit message: "Update makefile"
+ > git rev-list --no-walk 38cf4c6f9cbf0f36080c945117b187330aeff7eb # timeout=10
+[project_build] $ /bin/sh -xe /tmp/jenkins3438106349281267754.sh
++ make
+gcc -c bigg.c 
+bigg.c: In function ‘bigg’:
+bigg.c:13:12: warning: ‘return’ with a value, in function returning void
+     return 0;
+            ^
+bigg.c:2:6: note: declared here
+ void bigg()
+      ^~~~
+cc    -c -o fact.o fact.c
+fact.c: In function ‘fact’:
+fact.c:15:10: warning: ‘return’ with a value, in function returning void
+   return 0;
+          ^
+fact.c:3:6: note: declared here
+ void fact()
+      ^~~~
+gcc -c main.c 
+main.c: In function ‘main’:
+main.c:5:2: warning: implicit declaration of function ‘bigg’ [-Wimplicit-function-declaration]
+  bigg();
+  ^~~~
+main.c:6:2: warning: implicit declaration of function ‘fact’ [-Wimplicit-function-declaration]
+  fact();
+  ^~~~
+main.c:7:2: warning: implicit declaration of function ‘palindrome’ [-Wimplicit-function-declaration]
+  palindrome();
+  ^~~~~~~~~~
+gcc -c Palindrome.c
+Palindrome.c: In function ‘palindrome’:
+Palindrome.c:24:11: warning: ‘return’ with a value, in function returning void
+    return 0;
+           ^
+Palindrome.c:3:6: note: declared here
+ void palindrome()
+      ^~~~~~~~~~
+gcc -o ABC.exe bigg.o fact.o main.o Palindrome.o
+Triggering a new build of [8mha:////4KhNn5HUim70Qpfu0m9czCCQQI+yRGBvHmMNn0mn/IzOAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYR/az8JP2Covys1OSS+JTUgpz8Sn0AFm/HkMkAAAA=[0mproject_deploy
+Finished: SUCCESS

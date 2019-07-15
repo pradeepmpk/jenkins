@@ -1,0 +1,12 @@
+Started on Jul 13, 2019 6:17:23 PM
+Started by event from 140.82.115.6 ⇒ http://52.14.252.65:8080/github-webhook/ on Sat Jul 13 18:17:23 UTC 2019
+Using strategy: Default
+[poll] Last Built Revision: Revision 651b0c83cc50c8a3ec15ae48ff8997c96a5bc612 (refs/remotes/origin/master)
+using credential ea8fffaa-9362-4db1-ac1b-62ee5989e703
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git ls-remote -h https://github.com/pradeepmpk/test3.git # timeout=10
+Found 1 remote heads on https://github.com/pradeepmpk/test3.git
+[poll] Latest remote head revision on refs/heads/master is: 6b0400acd814835eabfb960add967c16ecc5d180
+Done. Took 0.13 sec
+Changes found

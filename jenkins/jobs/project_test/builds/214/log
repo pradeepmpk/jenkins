@@ -1,0 +1,10 @@
+Started by upstream project "[8mha:////4KhNn5HUim70Qpfu0m9czCCQQI+yRGBvHmMNn0mn/IzOAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYR/az8JP2Covys1OSS+JTUgpz8Sn0AFm/HkMkAAAA=[0mproject_deploy" build number [8mha:////4P6cXA3jPdr5eurSF/ksiOekwIaqT4UJ/gEzixAC00AuAAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYx/az8JP2Covys1OSS+JTUgpz8Sn0jAwBwR87ZywAAAA==[0m20
+originally caused by:
+ Started by upstream project "[8mha:////4Brx3PLHkp8InvQGEcCAHoEDDoML4qEDrVkioU60fL1jAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZh/az8JP2Covys1OSS+KTSzJwUfQAoKe0ayAAAAA==[0mproject_build" build number [8mha:////4OaMxSSfIy9f1KqOmsIsSkQvTtWsXpsDPjEPEqKXk1JwAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBhH9rPwk/YKi/KzU5JL4pNLMnBR9SwDvBkRqyQAAAA==[0m9
+ originally caused by:
+  Started by GitHub push by pradeepmpk
+Running as SYSTEM
+Building remotely on [8mha:////4LCFRYN2EqOxpOVAmtkxAv6bF+N+v7YYwKouW4znJzFZAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eKcxLJUIwCCp2lrxQAAAA==[0mslave2 in workspace /home/ec2-user/jenkins/workspace/project_test
+[project_test] $ /bin/bash /tmp/jenkins6788168099670443178.sh
+Null message body; hope that's ok
+Finished: SUCCESS

@@ -1,0 +1,24 @@
+Started by upstream project "[8mha:////4Brx3PLHkp8InvQGEcCAHoEDDoML4qEDrVkioU60fL1jAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZh/az8JP2Covys1OSS+KTSzJwUfQAoKe0ayAAAAA==[0mproject_build" build number [8mha:////4MRvE6iis6i7DeQ9Mpj3JtQkwbT3yO6ykKVkP4vQWCDHAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBhH9rPwk/YKi/KzU5JL4pNLMnBR9CwB5NkMdyQAAAA==[0m8
+originally caused by:
+ Started by GitHub push by pradeepmpk
+Running as SYSTEM
+Building remotely on [8mha:////4LCFRYN2EqOxpOVAmtkxAv6bF+N+v7YYwKouW4znJzFZAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eKcxLJUIwCCp2lrxQAAAA==[0mslave2 in workspace /home/ec2-user/jenkins/workspace/project_deploy
+using credential ea8fffaa-9362-4db1-ac1b-62ee5989e703
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/pradeepmpk/test3.git # timeout=10
+Fetching upstream changes from https://github.com/pradeepmpk/test3.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress https://github.com/pradeepmpk/test3.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 4623bbb614a58959e58364737954db12172ee340 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 4623bbb614a58959e58364737954db12172ee340
+Commit message: "Update makefile"
+ > git rev-list --no-walk 23d1fec132c7df8dfd1e104162c98a0bbd025b6c # timeout=10
+[project_deploy] $ /bin/sh -xe /tmp/jenkins5507546480220235367.sh
++ scp /home/ec2-user/jenkins/workspace/project_build/ABC.exe ec2-user@18.191.199.168:/home/ec2-user/jenkins/project_deploy
+Triggering a new build of [8mha:////4L1bxf5qoo9pIZ0d359LogMJTVofYQ6ygW100JzShjdxAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAweoBn6WflJ+gVF+VmpySXxJanFJfoA39JANccAAAA=[0mproject_test
+Finished: SUCCESS

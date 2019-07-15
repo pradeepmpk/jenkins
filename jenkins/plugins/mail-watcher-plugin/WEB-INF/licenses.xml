@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<l:dependencies xmlns:l='licenses' groupId='org.jenkins-ci.plugins' artifactId='mail-watcher-plugin' version='1.16'><l:dependency name='Mail Watcher Plugin' groupId='org.jenkins-ci.plugins' artifactId='mail-watcher-plugin' version='1.16' url='https://wiki.jenkins-ci.org/display/JENKINS/Mail+Watcher+Plugin'><l:description>This plugin notifies configured email recipients on various events.</l:description></l:dependency></l:dependencies>

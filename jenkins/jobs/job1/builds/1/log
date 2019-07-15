@@ -1,0 +1,25 @@
+Started by user [8mha:////4K+lap6PnxGndf+4WF5Vs7ET6eZ/QCLt5pnO3X35Pj3bAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZu/dLi1CL9xJTczDwAEmIUecAAAAA=[0mpradeepmpk
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/job1
+using credential ea8fffaa-9362-4db1-ac1b-62ee5989e703
+Cloning the remote Git repository
+Cloning repository https://github.com/pradeepmpk/test2.git
+ > git init /var/lib/jenkins/workspace/job1 # timeout=10
+Fetching upstream changes from https://github.com/pradeepmpk/test2.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress https://github.com/pradeepmpk/test2.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/pradeepmpk/test2.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/pradeepmpk/test2.git # timeout=10
+Fetching upstream changes from https://github.com/pradeepmpk/test2.git
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress https://github.com/pradeepmpk/test2.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision df4cee27e7f1acf8947547ef4d788df876cf9328 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f df4cee27e7f1acf8947547ef4d788df876cf9328
+Commit message: "adding reverse"
+First time build. Skipping changelog.
+Finished: SUCCESS

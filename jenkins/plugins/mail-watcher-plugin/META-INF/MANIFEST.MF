@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: ogondza
+Build-Jdk: 1.7.0_79
+Extension-Name: mail-watcher-plugin
+Specification-Title: This plugin notifies configured email recipients 
+ on various events.
+Implementation-Title: mail-watcher-plugin
+Implementation-Version: 1.16
+Group-Id: org.jenkins-ci.plugins
+Short-Name: mail-watcher-plugin
+Long-Name: Mail Watcher Plugin
+Url: https://wiki.jenkins-ci.org/display/JENKINS/Mail+Watcher+Plugin
+Plugin-Version: 1.16
+Hudson-Version: 1.609
+Jenkins-Version: 1.609
+Plugin-Dependencies: mailer:1.6,maven-plugin:2.11,jobConfigHistory:2.0
+ ;resolution:=optional
+Plugin-Developers: Oliver Gondža:olivergondza:ogondza@gmail.com
+
